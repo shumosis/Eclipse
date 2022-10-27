@@ -5,7 +5,7 @@ public class Lamp {
 	public static boolean brightLight=true ;
 	public String name;
 	public double price;
-	public SweetColor color=SweetColor.WHITE;
+	public Color color=Color.WHITE;
 	public double quantity ;
 	
 	public Lamp (String name) {

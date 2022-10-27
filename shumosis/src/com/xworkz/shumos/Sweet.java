@@ -5,7 +5,7 @@ public class Sweet {
 	public static String shopName="kanli" ;
 	public String name;
 	public double price;
-	public SweetColor color=SweetColor.PINK;
+	public Color color=Color.PINK;
 	public double quantity ;
 	
 	public Sweet(String name) {

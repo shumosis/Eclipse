@@ -5,7 +5,7 @@ public class ShirtBrand {
 	public static String shopName="Ajio" ;
 	public String name;
 	public double price;
-	public SweetColor color=SweetColor.BLACK;
+	public Color color=Color.BLACK;
 	public double quantity ;
 	
 	public ShirtBrand(String name) {

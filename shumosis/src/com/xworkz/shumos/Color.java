@@ -1,6 +1,6 @@
 package com.xworkz.shumos;
 
-public enum SweetColor {
+public enum Color {
 
 	BLACK,PINK,WHITE,SILVER,GOLD,NA;
 }

@@ -4,7 +4,7 @@ public class Milk {
 	public static String shopName="more" ;
 	public String type;
 	public double price;
-	public SweetColor color=SweetColor.WHITE;
+	public Color color=Color.WHITE;
 	public double quantity ;
 	
 	public Milk (String type) {
