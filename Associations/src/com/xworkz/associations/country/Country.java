@@ -16,12 +16,13 @@ public class Country {
 	public void showToShumos()
 	{
 		System.out.println(this.name);
-		if(president==null) {
+		if(president!=null) {
 			System.out.println("president is null");
 		}
 		else 
 		{
-			System.out.println(this.president);
+			
+			//System.out.println(this.president);
 		}
 		
 		if(cities !=null && cities.length>0) 
@@ -29,7 +30,7 @@ public class Country {
 		        for (int i = 0; i < cities.length; i++) 
 		             {
 			             City element = this.cities[i];
-			            System.out.println(element);
+			           // System.out.println(element);
 			                     if(element== null) 
 			                     {
 			                       System.out.println("city is null");

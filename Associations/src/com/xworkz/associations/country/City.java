@@ -12,11 +12,11 @@ public class City {
 		this.capital=capital;
 		this.areainsqmeter=areainsqmeter;
 		
-	
-		System.out.println(capital);
-		System.out.println(areainsqmeter);
-		
-		
 	}
-	
+	public void showofCity() 
+	{
+	System.out.println(name);
+	System.out.println(capital);
+	System.out.println(areainsqmeter);
 	}
+}

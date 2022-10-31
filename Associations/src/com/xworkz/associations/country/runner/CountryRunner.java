@@ -1,5 +1,6 @@
 package com.xworkz.associations.country.runner;
 
+
 import com.xworkz.associations.country.City;
 import com.xworkz.associations.country.Country;
 import com.xworkz.associations.country.Gender;
@@ -11,13 +12,13 @@ public class CountryRunner {
 	public static void main(String[] args) {
 	
 		
-		President president =new President();
+		President president =new President());
 		
 		Name name1=new Name("shubham","arvind","garve");
 		City city1=new City(name1,"shirdhon",3657);
 		
 		Name name2=new Name("akshay","r","joshi");
-		City city2=new City(name2,"",5677);
+		City city2=new City(name2,"takwade",5677);
 		
 	
 		
