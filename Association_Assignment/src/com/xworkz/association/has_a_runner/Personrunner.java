@@ -29,12 +29,13 @@ public class Personrunner {
 		
 		Job job = new Job(20000,"lead",true,company1);
 		
+		
 	    person person = new person("akshay",email,job);
 	    person.showOfPerson();
 		person.job.showofjob();
 		person.job.company.showofcompany();
 		person.job.company.addres.location.city.shoeOfCity();
-		person.job.company.addres.location.country.showOfCountry();
+	person.job.company.addres.location.country.showOfCountry();
 	    person.job.company.addres.location.state.showOfStates();
 		 
 

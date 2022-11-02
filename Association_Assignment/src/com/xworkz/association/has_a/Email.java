@@ -14,6 +14,8 @@ public class Email {
 		this.password = password;
 		this.mobile_no = mobile_no;
 		this.company = company;
+	}
+	public void show() {
 
 		System.out.println(id);
 		System.out.println(password);
