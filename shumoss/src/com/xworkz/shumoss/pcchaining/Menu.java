@@ -2,11 +2,13 @@ package com.xworkz.shumoss.pcchaining;
 
 public class Menu extends Catering  {
 
-	
-	
-	public Menu(String cateringFor, String cateringCompany, String cateringCompanyOwner) {
+	public String cateringFor;
+ 	public String name;
+	public Menu(String cateringFor, String cateringCompany, String cateringCompanyOwner,String name) {
 		super(cateringFor, cateringCompany, cateringCompanyOwner);
-		// TODO Auto-generated constructor stub
+		this.cateringFor=cateringFor;
+		this.name=name;
+		
 	}
 	
 	

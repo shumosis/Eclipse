@@ -7,7 +7,7 @@ public class changeCase {
 	        StringBuffer newStr=new StringBuffer(str1);    
 	            
 	        for(int i = 0; i < str1.length(); i++) {    
-	                
+	         aa       
 	            //Checks for lower case character    
 	            if(Character.isLowerCase(str1.charAt(i))) {    
 	                //Convert it into upper case using toUpperCase() function    
