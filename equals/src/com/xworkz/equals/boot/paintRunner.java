@@ -77,11 +77,14 @@ public class paintRunner {
   		System.out.println(sameHospital);
     	
 		 
-  		System.out.println("========================================="); 
+  		System.out.println("=========================================");
   		
-  	
+  		Lipstick lipstick = new Lipstick("kajal","loreal","green","more","vinodaman","vinodamam",true,10,360,10);
+  		
+  		Lipstick lipstick1 = new Lipstick("kajal","loreal","green","more","vinodaman","vinodamam",true,12,350,90);
 		 
-		 
+  		boolean samelipstick=  lipstick.equals( lipstick1);
+  		System.out.println(samelipstick); 
 		 
 		 
 		 
