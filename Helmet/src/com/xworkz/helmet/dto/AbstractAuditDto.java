@@ -2,11 +2,12 @@ package com.xworkz.helmet.dto;
 
 import java.io.Serializable;
 import java.time.LocalDateTime;
+import java.time.LocalTime;
 
 public class AbstractAuditDto implements Serializable {
 	
 	private String createdby;
-	private LocalDateTime localDateTime;
+	private LocalTime localDateTime;
 	private String updatedBy;
 	private LocalDateTime updatedDateTime;
 	
@@ -17,6 +18,17 @@ public class AbstractAuditDto implements Serializable {
 	}
 	
 	
+	
+	
+	public AbstractAuditDto(String createdby, LocalTime localTime) {
+		this.createdby = createdby;
+		this.localDateTime = localTime;
+		
+	}
+
+
+
+
 	@Override
 	public String toString() {
 		return "AbstractAuditDto [createdby=" + createdby + ", localDateTime=" + localDateTime + ", updatedBy="
@@ -30,10 +42,10 @@ public class AbstractAuditDto implements Serializable {
 	public void setCreatedby(String createdby) {
 		this.createdby = createdby;
 	}
-	public LocalDateTime getCreatedDateTime() {
+	public LocalTime getCreatedDateTime() {
 		return localDateTime;
 	}
-	public void setCreatedDateTime(LocalDateTime LocalDateTime) {
+	public void setCreatedDateTime(LocalTime LocalDateTime) {
 		this.localDateTime = LocalDateTime;
 	}
 	public String getUpdatedBy() {
