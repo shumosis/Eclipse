@@ -1,8 +1,10 @@
 package com.xworkz.abstraction;
 
-public abstract class Atm {
+public  class Atm {
 	
-	public abstract void withdraw();
+	public void withdraw() {
+		System.out.println("shu");
+	}
 	
 	public void CheckBalance() {
 		
@@ -10,5 +12,7 @@ public abstract class Atm {
 		
 		
 	}
+	
+
 	
 	}

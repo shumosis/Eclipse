@@ -7,10 +7,15 @@ public class AtmRunner {
 
 	public static void main(String[] args) {
 		
-		SbiAtm sbiatm = new SbiAtm();
+		Atm atm = new SbiAtm();
+	    SbiAtm sbiatm =(SbiAtm)atm;
+		
 		sbiatm.withdraw();
 		sbiatm.CheckBalance();
-
+	     sbiatm.ministatement();
+        
 	}
+	
+
 
 }

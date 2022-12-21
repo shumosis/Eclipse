@@ -32,18 +32,18 @@ public class TheaterRunner {
 			
 		}
 		System.out.println("==========================");
+		
 		try {
 			theaterService.validateAndSave(theaterdto1);
-		} catch (somethingIsNotGoodException e) {
-			
-			e.printStackTrace();
-			
+		} catch (somethingIsNotGoodException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
 		}
-		System.out.println("================================");
+				System.out.println("================================");
 		try {
 			theaterService.validateAndSave(theaterdto2);
 		} catch (somethingIsNotGoodException e) {
-			
+		
 			e.printStackTrace();
 		}
 		System.out.println("==================================");

@@ -1,11 +1,16 @@
 package com.xworkz.abstraction;
 
 public  class SbiAtm extends Atm{
-	
-	public void withdraw() {
+      String akshay = "afreen";
+  	//@Override
+	//public void withdraw() {
+	//System.out.println(akshay);
 		
-		System.out.println("withdraw nadita ede");
-	}
+	//}
+  	 public void ministatement() {
+  		 System.out.println("runnig mini nstatement");
+  	 }
+	
 	
 
 }
