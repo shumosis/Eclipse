@@ -26,7 +26,7 @@ public class Eureka {
         	  while(temp >0) {
         		  count++;
         		  temp = temp/10;
-        	  }
+        	  
         	  int n = temp;
         	  int ref = 0;
         	  int sum = 0;
@@ -36,8 +36,10 @@ public class Eureka {
         		  sum +=(int)Math.pow(ref,count);
         		  count--;
         	  }
+        	  
         	  if(num == sum) {
         		  System.out.println(num+" ");
+        	  }
         	  }
           }
 	}

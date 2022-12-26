@@ -13,10 +13,10 @@ public class RemoveSpaces {
 			}else {
 				s+=ch;//s=s+ch;
 			}
+
+		}
 		System.out.println("white spaces :" +count);
 		System.out.println("String without spaces:"+s);
-		}
-		
 		}	
 		
 	}
