@@ -36,7 +36,7 @@ public class SanitiserDtoRunner {
 		Iterator<SanitizerDTO> ref1 = collection.iterator();
 		while (ref1.hasNext()) {
 			SanitizerDTO element = ref1.next();
-			// System.out.println(element);
+			
 			if (element.getPrice() > 25) {
 				System.out.println("sanitizsers of price 25 or above " + element);
 			}
@@ -63,7 +63,7 @@ public class SanitiserDtoRunner {
 			SanitizerDTO element4 = ref4.next();
 			if (element4.getPrice() < 175) {
 				System.out.println("shortest priced sanitizer  " + element4);
-				// ref4.getClass();
+				
 			}
 		}
 		Iterator<SanitizerDTO> ref5 = collection.iterator();
@@ -71,7 +71,7 @@ public class SanitiserDtoRunner {
 			SanitizerDTO element5 = ref5.next();
 			if (element5.getPrice() > 1000) {
 				System.out.println("max priced sanitizer  " + element5);
-				// ref4.getClass();
+				
 			}
 		}
 		Iterator<SanitizerDTO> ref6 = collection.iterator();
