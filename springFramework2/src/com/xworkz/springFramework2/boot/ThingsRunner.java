@@ -52,9 +52,9 @@ System.out.println(rocket2.getBudget());
 	System.out.println(season1.getName());
 	System.out.println(season1.getStartingMonth());
 	
-	season2.setDuration(4);
-	season2.setName("summer");
-	season2.setStartingMonth("april");
+	//season2.setDuration(4);
+	//season2.setName("summer");
+	//season2.setStartingMonth("april");
 	System.out.println(season2);
 	System.out.println(season2.getDuration());
 	System.out.println(season2.getName());

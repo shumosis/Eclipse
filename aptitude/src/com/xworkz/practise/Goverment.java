@@ -8,16 +8,13 @@ public class Goverment {
     int weight;
     boolean good;
     
-    public Goverment() {
-	this("shubham");	
-	}
-   
+    
     public Goverment(String name) {
-    	this("shubham","mudhol",5,60,true);
+    	this("mudhol",5,60,true);
 		this.name = name;
 	}
 
-	public Goverment(String name,String city, int height, int weight, boolean good) {
+	public Goverment(String city, int height, int weight, boolean good) {
 	   
 		this.city = city;
 		this.height = height;

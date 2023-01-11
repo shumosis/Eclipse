@@ -31,12 +31,14 @@ public class SpringConfig {
 	}
 	@Bean
 	public Season secondSeason() {
-	
+	System.out.println("running second season");
 		Season season2 = new Season();
 		season2.setDuration(8);
 		season2.setName("summer");
 		season2.setStartingMonth("may");
-		
+		System.out.println(season2.getName());
+		System.out.println(season2.getDuration());
+		System.out.println(season2.getStartingMonth());
 		return season2;
 		
 	}
