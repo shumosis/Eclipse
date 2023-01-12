@@ -1,4 +1,4 @@
-package com.xworkz.springFramework2.configuration2;
+package com.xworkz.springFramework4.configuration;
 
 import java.time.LocalDate;
 
@@ -7,7 +7,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ComponentScan("com.xworkz.springFramework2")
+@ComponentScan("com.xworkz.springFramework4")
 public class SpringConfiguration2 {
 	
 	

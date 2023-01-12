@@ -1,4 +1,4 @@
-package com.xworkz.springFramework2.things2;
+package com.xworkz.springFramework4.beans;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
