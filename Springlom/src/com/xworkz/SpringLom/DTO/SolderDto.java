@@ -20,32 +20,32 @@ import lombok.ToString;
 @ToString
 public class SolderDto extends AbstractAuditDto{
 	
-    @NonNull
+   
 	@NotNull
 	@NotBlank
 	@Size(min = 3,max =20 , message = "name lenght shoud be min3 and max 20")
-	private String name = "shumosis";
-    @NonNull
+	private String name ;
+   
 	@Min(0)
 	@Max(1000000)
-	private int id = 45;
-    @NonNull
+	private int id;
+    
 	@NotNull
 	@NotBlank
 	@Size(min = 3,max =50 , message = "country lenght shoud be min3 and max 20")
 	private String country = "indiaaa";
-    @NonNull
+    
 	@NotNull
 	@NotBlank
 	@Size(min = 2,max =40 , message = "batalian lenght shoud be min3 and max 20")
-	private String batalian = "Maratha";
-    @NonNull
+	private String batalian ;
+   
 	@NotNull
 	@NotBlank
 	@Size(min = 3,max =30 , message = "rank lenght shoud be min3 and max 20")
     
-	private String rank = "first";
+	private String rank ;
     @NonNull
-	private boolean alive=true;
+	private boolean alive;
 
 }

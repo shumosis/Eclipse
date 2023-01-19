@@ -8,16 +8,12 @@ import com.xworkz.SpringLom.services.SoldierServiceImpl;
 public class SoldierRunner {
 
 	public static void main(String[] args) {
-	
-		
 
-		SolderDto dto = new SolderDto();
-		
-		SolderRepo repository = new SolderRepoImpl();
+		SolderDto dto = new SolderDto("shumosis",23355,"india","first","mareatha",true);
+	    SolderRepo repository = new SolderRepoImpl();
 		SoldierServiceImpl services = new SoldierServiceImpl();
 		services.setRepo(repository);
 		services.validateAndSave(dto);
 
 	}
-
 }

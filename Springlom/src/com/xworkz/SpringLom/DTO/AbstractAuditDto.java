@@ -14,9 +14,9 @@ import lombok.ToString;
 @ToString
 public class AbstractAuditDto {
 	
-	private String createdBy;
-	private LocalDateTime createdtime;
-	private String updatedBy;
-	private  LocalDateTime  updatedTime;
+	private String createdBy = "shumosis";
+	private LocalDateTime createdtime = LocalDateTime.of(2022, 12, 20, 4, 0);
+	private String updatedBy =  "shumosis";
+	private  LocalDateTime  updatedTime = LocalDateTime.of(2022, 12, 20, 4, 0);
 
 }
