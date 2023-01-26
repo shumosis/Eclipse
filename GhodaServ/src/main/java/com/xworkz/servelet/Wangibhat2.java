@@ -8,7 +8,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-@WebServlet(loadOnStartup = 2,value = "Osho")
+@WebServlet(loadOnStartup = 9,value = "/Osho")
 public class Wangibhat2 extends HttpServlet{
 	public Wangibhat2() {
 		System.out.println(this.getClass().getSimpleName());
