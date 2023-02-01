@@ -13,12 +13,8 @@ public static void main(String[] args) {
 		System.out.println("enter the input");
 		int input= sc.nextInt();
 		
-		int[] a =new int[3];
-		a=Pythagorean(input);
-		for(int i =0 ;i<3;i++) {
-			System.out.println(a[i]+" ");
-		
-		}}
+		Pythagorean(input);
+		}
 
 	
 	
@@ -38,7 +34,7 @@ public static void main(String[] args) {
 							   a[0]=i;
 							   a[1]=j;
 							   a[2]=k;
-							 
+							System.out.println(i+":"+j+":"+k); 
 							   return a;
 					   }
 					   }

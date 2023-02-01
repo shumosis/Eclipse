@@ -22,6 +22,7 @@ public class PrintingSeries {
 	            for (int j = 0; j < n; j++) {
 	                current =current + (int) Math.pow(2, j) * b;
 	                System.out.print(current + " ");
+	              
 	            }
 	            System.out.println();
 	        }
