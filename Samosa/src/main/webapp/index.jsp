@@ -16,11 +16,13 @@
   <div class="container-fluid">
     <span class="navbar-brand mb-0 h1">
      <img src="https://x-workz.in/static/media/Logo.cf195593dc1b3f921369.png" alt="Bootstrap" width="150" height="70"></span>
-     <a class="navbar-brand" href="Beach.jsp">beach</a>  <a class="navbar-brand" href="Casino.jsp">beach</a>
+     <a class="navbar-brand" href="Beach.jsp" >Click to see Beach</a>
+     <a class="navbar-brand" href="Casino.jsp">Click to see casino</a>
+     
   </div>
 </nav>
 
-;
+
 <h1>This page is done with bootstrap</h1>
 
 </body>
