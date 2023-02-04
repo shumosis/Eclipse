@@ -1,5 +1,3 @@
-package com.xworkz.practiseRunner;
-
 public class RemoveSpaces {
 
 	public static void main(String[] args) {
@@ -20,5 +18,3 @@ public class RemoveSpaces {
 		}	
 		
 	}
-
-	

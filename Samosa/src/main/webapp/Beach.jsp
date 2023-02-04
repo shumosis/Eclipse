@@ -46,16 +46,16 @@
    
    <div class="mb-3">
 		<label for="formFile" class="form-label">Select Games u Want to play</label>
-  <input class="form-check-input" type="checkbox" name="games"value="true" id="flexCheckDefault">
+  <input class="form-check-input" type="checkbox" name="games"value="Water games" id="flexCheckDefault">
   <label class="form-check-label" for="flexCheckDefault">
     Water Games
     </label>
-      <input class="form-check-input" type="checkbox" name="games" value="true" id="flexCheckChecked" checked>
+      <input class="form-check-input" type="checkbox" name="games" value="Scuba Diving" id="flexCheckChecked" checked>
   <label class="form-check-label" for="flexCheckChecked">
     scuba Diving
   </label>
   
-      <input class="form-check-input" type="checkbox" name="games" value="true" id="flexCheckChecked" checked>
+      <input class="form-check-input" type="checkbox" name="games" value="Paragliding" id="flexCheckChecked" checked>
   <label class="form-check-label" for="flexCheckChecked">
     ParaGliding
   </label>

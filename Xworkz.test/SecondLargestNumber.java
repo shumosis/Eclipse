@@ -1,8 +1,6 @@
-package com.xworkz.practise;
-
-public class ThirdLargestNumber {
+public class SecondLargestNumber {
 	
-	public static int getThirdLargest(int[] a, int total){  
+	public static int getSecondLargest(int[] a, int total){  
 		int temp;  
 		for (int i = 0; i < total; i++)   
 		        {  
@@ -13,17 +11,17 @@ public class ThirdLargestNumber {
 		                    temp = a[i];  
 		                    a[i] = a[j];  
 		                    a[j] = temp;
-		                    System.out.println(a);
+		                   
 		                }  
 		            }  
 		        }  
-		       return a[total-3];  
+		       return a[total-2];  
 		}  
 		public static void main(String args[]){  
 		int a[]={1,2,5,6,3,2};  
 		int b[]={44,66,99,77,33,22,55};  
-		System.out.println("Third Largest: "+getThirdLargest(a,6));  
-		System.out.println("Third Largest: "+getThirdLargest(b,7));  
+		System.out.println("Third Largest: "+getSecondLargest(a,6));  
+		System.out.println("Third Largest: "+getSecondLargest(b,7));  
 		}
 
 }
