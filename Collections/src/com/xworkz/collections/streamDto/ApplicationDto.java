@@ -5,7 +5,7 @@ import java.util.Objects;
 
 import com.xworkz.collections.dtos.AirportDTO;
 
-public class ApplicationDto implements Serializable{
+public class ApplicationDto implements Serializable ,Comparable<ApplicationDto>{
 	
 	private String name ;
 	private double version;
@@ -89,6 +89,12 @@ public class ApplicationDto implements Serializable{
 	public String toString() {
 		return "ApplicationDto [name=" + name + ", version=" + version + ", free=" + free + ", developedBy="
 				+ developedBy + ", price=" + price + "]";
+	}
+
+	@Override
+	public int compareTo(ApplicationDto obj) {
+		
+		return obj.name.compareTo(this.name);
 	}
 	
 	

@@ -47,7 +47,7 @@ public class WeaponDto implements Serializable ,Comparable<WeaponDto> {
 		 if(obj instanceof WeaponDto) {
 			  
 			 WeaponDto dto = (WeaponDto)obj;
-			 if(dto.name.equals(this.name)) {
+			 if(this.name.equals(dto.name)) {
 				 return true;
 			 }
 		 }
@@ -57,7 +57,7 @@ public class WeaponDto implements Serializable ,Comparable<WeaponDto> {
 	@Override
 	public int compareTo(WeaponDto obj) {
 		
-		return obj.name.compareTo(name);
+	return this.name.compareTo(obj.name);
 	}
 
 	public String getName() {
@@ -84,7 +84,7 @@ public class WeaponDto implements Serializable ,Comparable<WeaponDto> {
 		this.madeOn = madeOn;
 	}
 
-	public double getPrice() {
+	public Double getPrice() {
 		return price;
 	}
 
